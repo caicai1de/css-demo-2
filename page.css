@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+header {
+  outline: 2px solid red;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width: 100%;
+  height: 80px;
+}
+.logo {
+  float: left;
+}
+.nav {
+  float: right;
+}
+ul li {
+  float: left;
+  font-size: 23px;
+  color: white;
+  padding: 6px 0.3em;
+}
+header {
+  background: black;
+}
+.content {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+.content > aside {
+  outline: 1px solid red;
+  float: left;
+  height: 400px;
+  width: 100px;
+}
+.content > main {
+  outline: 1px solid red;
+  float: left;
+  height: 400px;
+  width: 300px;
+}
+.content > div {
+  outline: 1px solid red;
+  float: left;
+  height: 400px;
+  width: 200px;
+}
+
+.image-display {
+  width: 600px;
+
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image-display > .x {
+  margin-right: -9px;
+}
+.image-display > .x > .image {
+  width: 194px;
+  height: 160px;
+  float: left;
+  margin-right: 9px;
+  margin-bottom: 10px;
+}
+.image-display > .x > .I1 {
+  background: red;
+}
+.image-display > .x > .I2 {
+  background: orange;
+}
+.image-display > .x > .I3 {
+  background: yellow;
+}
+.image-display > .x > .I4 {
+  background: green;
+}
+.image-display > .x > .I5 {
+  background: blue;
+}
+.image-display > .x > .I6 {
+  background: purple;
+}
